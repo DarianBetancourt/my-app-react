@@ -5,7 +5,7 @@ const Characters = ({characters = [] }) => {
     return (
     <div className="row">
         {characters.map((character,index) => (
-            <div key={character.id} className='col'>
+            <div key={character.id} className='col text-center'>
                 <Card character={character}/>
             </div>
         ))}

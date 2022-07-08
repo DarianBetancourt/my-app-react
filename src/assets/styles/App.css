@@ -1,0 +1,14 @@
+
+.btn-group .btn:hover{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-gray-500), var(--bs-text-opacity)) !important;
+}
+
+.card{
+    width: 12rem;
+}
+
+.card-body .btn:hover{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}

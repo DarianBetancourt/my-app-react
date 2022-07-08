@@ -1,5 +1,4 @@
 import { useState } from "react"
-import "../assets/styles/card.css"
 import { DetailCharacter } from './DetailCharacter'
 
 const Card = ({character}) => { 
@@ -11,12 +10,12 @@ const Card = ({character}) => {
     }
 
     return (
-        <div className="card mb-3">
+        <div className="card mb-3 shadow mx-auto">
             <img src={character.image} className="card-img-top" alt={character.name} />
             <div className="card-body">
                 <h5 className="card-title">{character.name}</h5>
                 {showDetail ?<DetailCharacter character={character}/>: <></>}
-                <button className="btn btn-primary" onClick={handleToggleClick}>Details</button>
+                <button className="btn btn-dark bg-gradient" onClick={handleToggleClick}>Details</button>
             </div>
         </div>
     )
