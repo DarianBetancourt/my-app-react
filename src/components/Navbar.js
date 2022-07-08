@@ -17,13 +17,7 @@ function Navbar() {
                             <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Features</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/">Pricing</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" href="/">Disabled</a>
+                            <a className="nav-link" href="https://rickandmortyapi.com/documentation" rel="noreferrer" target="_blank">About API</a>
                         </li>
                     </ul>
                 </div>

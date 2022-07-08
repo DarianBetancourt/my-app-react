@@ -11,7 +11,7 @@ const App = () =>{
   const [info, setInfo] = useState({});
 
   /* 
-      //Example use others API functions 
+      //Example use others APIUtils functions 
         const resp = API.getMultCharacters([2,3]);
         const resp = API.getCharacter(2); 
   */
